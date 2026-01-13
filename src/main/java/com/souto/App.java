@@ -1,10 +1,11 @@
 package com.souto;
 
-/**
- * Hello world!
- */
+import com.souto.view.MainView;
+
 public class App {
+    private final MainView mainView = new MainView();
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        new App().mainView.run();
     }
 }
