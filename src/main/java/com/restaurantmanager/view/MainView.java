@@ -1,11 +1,11 @@
-package com.souto.view;
+package com.restaurantmanager.view;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import com.souto.controller.SystemController;
-import com.souto.model.MenuItem;
-import com.souto.model.Order;
-import com.souto.model.OrderItem;
+import com.restaurantmanager.controller.SystemController;
+import com.restaurantmanager.model.MenuItem;
+import com.restaurantmanager.model.Order;
+import com.restaurantmanager.model.OrderItem;
 
 public class MainView {
     private final SystemController systemController = new SystemController();

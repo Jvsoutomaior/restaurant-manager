@@ -1,7 +1,7 @@
-package com.souto.controller;
+package com.restaurantmanager.controller;
 import java.util.List;
 
-import com.souto.model.MenuItem;
+import com.restaurantmanager.model.MenuItem;
 
 public class MenuItemController {
     private List<MenuItem> menu;

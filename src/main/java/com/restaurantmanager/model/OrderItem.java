@@ -1,4 +1,4 @@
-package com.souto.model;
+package com.restaurantmanager.model;
 
 public class OrderItem {
     private MenuItem menuItem;

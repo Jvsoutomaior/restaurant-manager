@@ -1,4 +1,4 @@
-package com.souto.model;
+package com.restaurantmanager.model;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

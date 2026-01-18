@@ -1,4 +1,4 @@
-package com.souto;
+package com.restaurantmanager;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

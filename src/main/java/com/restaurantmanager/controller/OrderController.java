@@ -1,9 +1,9 @@
-package com.souto.controller;
+package com.restaurantmanager.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.souto.model.Order;
-import com.souto.model.OrderItem;
+import com.restaurantmanager.model.Order;
+import com.restaurantmanager.model.OrderItem;
 
 public class OrderController {
     private List<Order> orders;

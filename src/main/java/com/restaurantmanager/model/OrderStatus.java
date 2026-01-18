@@ -1,4 +1,4 @@
-package com.souto.model;
+package com.restaurantmanager.model;
 
 public enum OrderStatus {
     PENDING,

@@ -1,7 +1,7 @@
-package com.souto.controller;
+package com.restaurantmanager.controller;
 
-import com.souto.model.MenuItem;
-import com.souto.model.MenuItemType;
+import com.restaurantmanager.model.MenuItem;
+import com.restaurantmanager.model.MenuItemType;
 
 // functions of this class,
 // 1. have the menuItemController and OrderController

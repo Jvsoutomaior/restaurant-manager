@@ -1,6 +1,6 @@
-package com.souto;
+package com.restaurantmanager;
 
-import com.souto.view.MainView;
+import com.restaurantmanager.view.MainView;
 
 public class App {
     private final MainView mainView = new MainView();

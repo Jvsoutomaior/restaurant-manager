@@ -1,4 +1,4 @@
-package com.souto.model;
+package com.restaurantmanager.model;
 
 public class MenuItem{
     private static int nextId = 0;
