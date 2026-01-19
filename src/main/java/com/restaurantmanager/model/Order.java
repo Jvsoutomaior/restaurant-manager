@@ -35,8 +35,8 @@ public class Order {
         return createdAt;
     }
 
-    public double getTotalPrice() {
-        double total = 0.0;
+    public float getTotalPrice() {
+        float total = 0.0f;
         for (OrderItem item : items) {
             total += item.getMenuItem().getPrice() * item.getQuantity();
         }
