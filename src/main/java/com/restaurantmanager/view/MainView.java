@@ -100,7 +100,7 @@ public class MainView {
             scanner.nextLine(); // Consume newline
 
             OrderItem orderItem = new OrderItem(menuItem, quantity);
-            systemController.getOrderController().addItemToOrder(newOrder, orderItem);
+            newOrder.addItemToOrder(orderItem);
             
             System.out.println(String.format("Added %dx %s to order", quantity, menuItem.getName()));
             

@@ -26,10 +26,6 @@ public class OrderController {
         return newOrder;
     }
 
-    public void addItemToOrder(Order order, OrderItem item) {
-        order.getItems().add(item);
-    }
-
     public void printAllOrders() {
         if (orders.isEmpty()) {
             System.out.println("No orders found.");
