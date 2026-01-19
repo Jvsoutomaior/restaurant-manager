@@ -1,19 +1,23 @@
 # restaurant-manager
-simple project to demostrate Knowledge in Java, Object Oriened programing, amoung other topics.
+Simple project to demonstrate knowledge in Java, Object-Oriented Programming, among other topics.
 
-the project is a simple restaurant manager that allows users to create orders, add items to orders, see menu, and see order details.
+The project is a simple restaurant manager that allows users to create orders, add items to orders, view the menu, and see order details.
 
 
 - MVC Architecture
-- persistence in memory
-- Cli
-- Simple unit test
-
+- In-memory persistence
+- CLI
+- Simple unit tests
 
 ## Run project
 ```
 mvn compile
 mvn -q exec:java -Dexec.mainClass=com.restaurantmanager.App
+```
+
+## Run tests
+```
+mvn test
 ```
 
 # Things learned
