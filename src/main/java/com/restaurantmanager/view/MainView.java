@@ -104,7 +104,7 @@ public class MainView {
             
             System.out.println(String.format("Added %dx %s to order", quantity, menuItem.getName()));
             
-            System.out.print("\nAdd another item? (1:yes 2:no): ");
+            System.out.print("\nAdd another item? Enter number (1:yes 2:no): ");
             try{
                 nextOption = scanner.nextInt();
             } catch(InputMismatchException e){

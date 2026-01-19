@@ -27,6 +27,7 @@ public class MenuItemController {
     }
 
     public void printMenuItems() {
+        System.out.println("\n\n");
         System.out.println("##### MENU #####");
         for (MenuItem item : menu) {    
             System.out.println(String.format("%d. %s : %s : %.2f", 
@@ -36,6 +37,7 @@ public class MenuItemController {
                 item.getPrice()));
         }
         System.out.println("################");
+        System.out.println("\n\n");
     }
 
     public MenuItem findById(int id) {
